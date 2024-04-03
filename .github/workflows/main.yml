@@ -27,7 +27,7 @@ jobs:
       - name: notion-jam
         uses: victornpb/notion-jam@v0.0.10
         with:
-          NOTION_SECRET: ${{secret_NA1UViiaSiJRe50gMex7sb0krsPuwdDkmkx43htYvIf}}
+          NOTION_SECRET: ${{ secrets.NOTION_SECRET }}
           NOTION_DATABASE: https://www.notion.so/steven-piazza/CompTIA-A-41c271379a6f412ca55cccda9b3cdca6?pvs=4
           FILTER_PROP: Status
           FILTER_VALUES: Published
